@@ -54,8 +54,7 @@ conda env update -n root -f "$build/environment.yml"
 
 conda install -y numpy
 conda install -y matplotlib
-conda install -y scipy
-conda install -y irkernel
+conda install -y -c r r-irkernel
 conda install -y pandas
 
 echo "-----> Cleaning Python Environment..."
