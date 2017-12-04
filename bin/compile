@@ -80,3 +80,10 @@ EOF
 
 echo "-----> Purging cache"
 rm -rf $cache/*
+
+conda install -y numpy
+conda install -y matplotlib
+conda install -y scipy
+conda install -y irkernel
+conda install -y pandas
+
